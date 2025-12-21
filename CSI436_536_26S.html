@@ -18,9 +18,9 @@ body {
 <body>
 <div class="one">
 <div id="toptitle">
-<h1>UAlbany CSI 436/536 Machine Learning (Spring 2026) Syllabus (still in development)</h1>
+<h1>UAlbany CSI 436/536 Machine Learning (Spring 2026) Syllabus</h1>
 <h2>1 Basic information</h2>
-Time: Monday and Wednesday 3-4:20pm<br />
+Time: Monday and Wednesday 3 - 4:20 pm<br />
 Dates: Wednesday Jan 21, 2026 - Monday May 4, 2026<br />
 Credits: 3<br />
 Classroom: Taconic 122<br />
@@ -30,25 +30,355 @@ Instructor:<br />
 Office hours: TBD<br />
 <br />
 Teaching Assistant:<br />
-TBD
-<br />
-Final Exam:<br />
 TBD<br />
+<br />
+Midterm Exam: Monday Mar 9, 3 - 4:20 pm, Taconic 122<br />
+Final Exam: Tuesday May 12, 3:30 - 5pm, Taconic 122<br />
 <br />
 Reference Books:<br />
 [1] Pattern Recognition and Machine Learning. Christopher Bishop, 2009.<br />
 [2] Understanding Machine Learning: From Theory to Algorithms. Shai Shalev-Shwartz and Shai Ben-David, 2014.<br />
-<h2>2 Topics to be covered</h2>
+<h2>2 Course schedule</h2>
+The following schedule of lecture topics and assignments is preliminary and may be changed as the semester progresses.  Students are expected to regularly read this schedule to get to know lecture topics and assignment deadlines.  <br />
+  <br />
+<style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+
+<table>
+    <tr>
+        <th>Week</th>
+        <th>Date</th>
+        <th>Event</th>
+        <th>Topic</th>
+        <th>Remark</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1/21</td>
+        <td>Lecture 1</td>
+        <td>Introduction to Machine Learning</td>
+        <td>Course project list out</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>1/26</td>
+        <td>Lecture 2</td>
+        <td>Review of Linear Algebra</td>
+        <td>Study group registration open</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>1/28</td>
+        <td>Lecture 3</td>
+        <td>Review of Calculus and Optimization</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>2/2</td>
+        <td>Lecture 4</td>
+        <td>Review of Probability and Statistics</td>
+        <td>Study group registration due / HW 1 out</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2/4</td>
+        <td>Lecture 5</td>
+        <td>Elements of Machine Learning</td>
+        <td>Course project registration due</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>2/9</td>
+        <td>Lecture 6</td>
+        <td>Evaluation Criteria</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2/11</td>
+        <td>Tutorial</td>
+        <td>Tutorials of Python and LaTeX</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>2/16</td>
+        <td>Lecture 7</td>
+        <td>Linear Classifier</td>
+        <td>HW 1 due (6%) / HW 2 out</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2/18</td>
+        <td>Lecture 8</td>
+        <td>Loss and Gradient Descent</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>2/23</td>
+        <td>Lecture 9</td>
+        <td>Linear Regression</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>2/25</td>
+        <td>Lecture 10</td>
+        <td>Regularization</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>3/2</td>
+        <td>Lecture 11</td>
+        <td>Support Vector Machines</td>
+        <td>HW 2 due (6%)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>3/4</td>
+        <td>Review</td>
+        <td>HW 1 and 2 Review</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>3/9</td>
+        <td>Exam</td>
+        <td>Midterm Exam (3 - 4:20 pm, 20%)</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>3/11</td>
+        <td>Presentation</td>
+        <td>Midterm Presentations (5%)</td>
+        <td>Midterm one-pager due (2%)</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>3/16</td>
+        <td>NO CLASS</td>
+        <td>Spring Break</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>3/18</td>
+        <td>NO CLASS</td>
+        <td>Spring Break</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>3/23</td>
+        <td>Review</td>
+        <td>Midterm Exam Review</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>3/25</td>
+        <td>Lecture 12</td>
+        <td>Probabilistic Models</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>3/30</td>
+        <td>Lecture 13</td>
+        <td>Error Decomposition</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>4/1</td>
+        <td>Lecture 14</td>
+        <td>Ensemble Learning</td>
+        <td>HW 3 out</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>4/6</td>
+        <td>Lecture 15</td>
+        <td>Kernel Methods</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>4/8</td>
+        <td>Lecture 16</td>
+        <td>Neural Networks & Deep Learning</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>4/13</td>
+        <td>Lecture 17</td>
+        <td>Clustering</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>4/15</td>
+        <td>Lecture 18</td>
+        <td>Dimension Reduction</td>
+        <td>HW 3 due (6%) / HW 4 out</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>4/20</td>
+        <td>Lecture 19</td>
+        <td>Advanced Topic: Decision Making</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>4/22</td>
+        <td>Lecture 20</td>
+        <td>Course Review</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>4/27</td>
+        <td>Presentation</td>
+        <td>Final Presentations (10%): Part I</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>4/29</td>
+        <td>Presentation</td>
+        <td>Final Presentations (10%): Part II</td>
+        <td>HW 4 due (6%)</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>5/4</td>
+        <td>Review</td>
+        <td>HW 3 and 4 Review</td>
+        <td>Final report due (4%) / Project code due</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>5/12</td>
+        <td>Exam</td>
+        <td>Final Exam (3:30 - 5 pm, 30%)</td>
+        <td></td>
+    </tr>
+</table>
+
+<h2>3 Course description</h2>
+<h3>3.1 Contents</h3>
+Machine learning is one of the most important and rapid growing subfields of artificial intelligence. The aim of machine learning is to design algorithms that can extract useful information from environment automatically and improve their ability to perform in intended tasks. This course starts with a high-level overview of general problems in machine learning, followed by a review of mathematical backgrounds that are essential for machine learning algorithms, after that several important topics in machine learning will be covered.<br />
+<br />
+Attending the lectures, Q&A with the instructor and the TA, successful completion of homework, exam, and course project implementation and presentation are the important requisites of this course.<br />
+<br />
+Topics to be covered:<br />
 <ul>
   <li>Review: linear algebra, calculus, optimization, probability, and statistics</li>
   <li>Linear classification</li>
   <li>Linear regression</li>
-  <li>Generative models</li>
+  <li>Probabilistic Models</li>
   <li>Ensemble methods</li>
   <li>Kernel methods, neural networks, and deep learning</li>
   <li>Unsupervised learning: clustering and dimension reduction</li>
-  <li>Advanced machine learning</li>
-</ul>
+  <li>Advanced machine learning</li></ul>
+<h3>3.2 Expected outcomes</h3>
+<ul>
+  <li>Understanding the foundation, major techniques, applications, and challenges of machine learning</li>
+ <li>The ability to apply basic machine learning algorithms for solving real-world problems</li>
+<li>Familiarize the tools for more in-depth machine learning studies</li></ul>
+<h3>3.3 Prerequisites</h3>
+The prerequisite to this class is very important, and lack of knowledge of these subjects will be difficult to make positive progress in the class. Although I will review some topics, make sure you are confident with these courses and techniques. 
+<ul>
+  <li>Linear Algebra (AMAT 220 or equivalent)</li>
+<li>Discrete probability (AMAT 367 or equivalent)</li>
+<li>Numerical methods (CSI 401 or equivalent)</li></ul>
+
+<h2>4 Course Policy</h2>
+<h3>4.1 Assessment</h3>
+<b>Grading Scale</b><br />
+<ul>
+  <li>A: 95 <= x <= 100 points</li>
+  <li>A-: 90 <= x < 95 points</li>
+  <li>B+: 85 <= x < 90 points</li>
+  <li>B: 80 <= x < 85 points</li>
+  <li>B-: 75 <= x < 80 points</li>
+  <li>C+: 70 <= x < 75 points</li>
+  <li>C: 65 <= x < 70 points</li>
+  <li>C-: 60 <= x < 65 points</li>
+  <li>D+: 55 <= x < 60 points</li>
+  <li>D: 50 <= x < 55 points</li>
+  <li>E: 0 <= x < 50 points</li></ul>
+The instructor reserves the right to curve up the final grades in extreme cases. Final grades are computed based on the above assessment formulas and are NOT negotiable.<br />
+<br />
+<b>Study group</b><br />
+<br />
+All homework assignments and course projects are completed by study groups throughout this semester. By the end of the study group registration deadline, each student must register in a group of 3-5 students. Each group will turn in only one copy of their homework solutions, midterm project one-pager, and final project report. Midterm and final presentations are also presented in groups. The same credit is given to all members in the same group, so students are expected to work closely as a team. However, both midterm and final exams are given individually.<br />
+<br />
+<b>Homework assignments (24%)</b><br />
+<br />
+There will be 4 homework assignments and each homework will count 6% toward your final grading. Students should submit homework on time to get full credits. All solutions to homework assignments must be written in <b>LaTeX</b> and submitted in PDF version.<br />
+<br />
+Late Homework Submission: Homework turned in before or on the specified due date and time, in class or submitted through Brightspace, depending on the circumstance, are eligible for 100% of the grade. If you choose to turn in after the due date and time passes, for the first 24-hour period after the due date and time, your assignment will be eligible for 50% of the full grade; after that, your assignment will be eligible for 0% of the full grade.<br />
+<br />
+<b>Course projects (21%)</b><br />
+<br />
+The instructor will provide a list of potential course projects. Each study group may choose to work on one of these projects. Additional course projects beyond the list can also be chosen, subject to approval by the instructor. Throughout the semester, each group will give a midterm presentation (5%), a final presentation (10%), write a midterm project one-pager (2%) and a final project report (4%), and submit all project code. Students must use Python to complete course projects. Students may lose all 20 points if the code is found to be copied from somewhere or doesn't work at all.<br />
+<br />
+<b>Exams (50%)</b><br />
+<br />
+A midterm exam (20%) and a final exam (30%) will be given closed books and individually, so try your best to learn from your group homework assignments!<br />
+<br />
+<b>Participation (5%)</b><br />
+<br />Students are expected to actively engage in this course. Students who ask questions or voluntarily show/explain their own solutions to in-class exercise problems are eligible for participation points. Eligible students must register their names in person to the instructor to claim these points immediately after each class meeting. Participation points cannot be given online or after a fully dismissed class meeting. Up to 3 points can be given to each student. The other 2 points are reserved for all students if the course evaluation goes above 60%. However, 0% can be given to students who consistently violate the policies defined below.
+<h3>4.2 Attendance</h3>
+Attendance to all class meetings is required.
+<h3>4.3 Academic honesty and overall regulations</h3>
+Student claims of ignorance, unintentional error, or personal or academic pressures cannot be excuses for violation of academic integrity. Students are responsible for familiarizing themselves with the standards and behaving accordingly, and UAlbany faculty are responsible for teaching, modeling and upholding them. Anything less undermines the worth and value of our intellectual work, and the reputation and credibility of the University at Albany degree. Plagiarism and other acts of academic dishonesty will be punished. Read the Standards of Academic Integrity and policies in the <a href="https://www.albany.edu/dean-students/community-standards">Student Code of Conduct</a>.<br />
+<br />
+WARNING. Plagiarism and other acts of academic dishonesty will be punished. Students are expected to submit original work in exams. Any student who submits copied work or any student that provides work for copying will earn a zero grade for that exam. If there is more than one copying incident, the student will be graded an F for the class. As per college policy, cheating activity, including cheating in exams, quizzes, projects, etc., WILL be written up in a Violation of Academic Integrity Report (VAIR) reported to the college administration, which includes the Computer Science Chair, the CNSE Dean, and the Vice Provost of Undergraduate Studies. This will become a
+part of your permanent record. Multiple incidents will result in being expelled from the university.
+<h3>4.4 Withdraw without penalty</h3>
+Students need to pay attention to the university calendar to monitor the drop date, which is the last date you can drop this course with no financial consequence. After that, you should consult the university’s liability schedule to consider dropping from this class. This may happen when you have to miss many assignments for unforeseeable scenarios.<br />
+<br />
+IMPORTANT: It is your responsibility to take such an action by this date, and don’t wait until it’s too late to see us when you get in trouble.
+<h3>4.5 Incomplete and extra credit policy</h3>
+Students must complete all requirements to pass the course. A grade of incomplete will be given only when circumstances beyond the student's control cause a substantial amount of course work to be unfinished by the end of the semester. Whenever possible, the student is expected to make extra efforts to prevent this situation from occurring. A student granted an incomplete will make an agreement specifying what material must be made up, and a date for its completion. The incomplete will be converted to a normal grade on the agreed upon completion date based upon whatever material is submitted by that time. The instructor will be the sole judge of whether an incomplete is warranted.<br />
+<br />
+IMPORTANT: Incomplete will not be given to students who have not fulfilled their classwork obligations, and who, at the end of the semester, are looking to avoid failing the course. There will be no extra credit work. All students will be expected to complete, and be graded on, the same set of assignments.
+<h3>4.6 Non-class related use of technology</h3>
+Use of electronic devices (cell phone, tablets, personal laptop computers) for non-class purposes while the class is in session is not allowed. If this is violated in a consistent manner after initial warning is issued by the instructor, the student involved will be treated as unexcused missing the day’s class and result in 0% in final participation point.
+<h3>4.7 Responsible computing</h3>
+Students are required to read the University at Albany Policy for the Responsible Use of <a href="https://www.albany.edu/its">Information Technology</a>. Students will be expected to apply the policies discussed in this document to all computing and electronic communications in the course.
+<h2>5 Resources</h2>
+<h3>5.1 Students with disabilities</h3>
+Reasonable accommodations will be provided for students with documented physical, sensory, systemic, cognitive, learning and psychiatric disabilities. If you believe you have a disability requiring accommodation in this class, please contact <a href="https://www.albany.edu/dean-students/disability">Disability Access and Inclusion Student Services (DAISS)</a>. They will provide the course instructor with verification of your disability, and will recommend appropriate accommodations.
+<h3>5.2 Title IX</h3>
+The University at Albany recognizes that in order to maintain a healthy, safe, and vibrant living and learning community, it must continue to foster an environment free from gender inequality and sexual violence. In furthering its commitment to that cause, the University has appointed a full-time administrator to ensure our realization of this important agenda. Further information can be found at <a href="https://www.albany.edu/title-IX">this website</a>.
+<h3>5.3 Diversity and Inclusion</h3>
+The <a href="https://www.albany.edu/diversity-and-inclusion">Office of Diversity and Inclusion</a>’s primary role is to carry out the University at Albany’s mission to ensure that diversity — in our people and in our ideas — drives excellence in everything we do.
+<h3>5.4 Campus resources to support basic needs</h3>
+It is difficult to succeed academically if you don’t have enough to eat, a safe place to live and sleep, or are struggling with an unforeseen emergency.  Knowing the resources available on your campus to help you succeed is key!  If you need help meeting these or other basic needs, please seek assistance from Supplemental Support Services in the Dean of Students Office. View the basic needs assistance offerings at <a href="https://www.albany.edu/dean-students/supplemental-support-services">here</a>. While you’re there, see the variety of helpful services available to you at the <a href="https://www.albany.edu/dean-students">Dean of Students</a>.
+<h3>5.5 Counseling & Psychological Services</h3>
+<a href="https://www.albany.edu/health-well-being/mental-health/caps">Counseling & Psychological Services (CAPS)</a> provides compassionate, confidential and inclusive mental health care to registered UAlbany students. All services are covered by your tuition and fees. 
+<h2>6 Statement on copyright of course materials</h2>
+My lectures and course materials, including presentations slides, written notes, recorded lectures, homework assignments and similar materials, are protected by U.S. copyright law and by university policy. I am the exclusive owner of the copyright in those materials I create. You may take notes and make copies of course materials for your own use. You may also share those materials with another student who is enrolled in or auditing this course. You may not reproduce, distribute or display (post/upload) lecture notes or recordings or course materials in any other way — whether or not a fee is charged — without my express prior WRITTEN consent. You also may not allow others to do so.<br />
+<br />
+If you do so, you may be subject to student conduct proceedings under the UAlbany Student Code of Conduct.
 </body>
 </html>
 
